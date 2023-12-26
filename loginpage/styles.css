@@ -1,0 +1,46 @@
+body {
+  background-image: url('https://i.cdn.newsbytesapp.com/hn/images/l64020220825085552.jpeg');
+  background-repeat: no-repeat;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    background-color:rgb(137, 155, 169); /* Adjust transparency as needed */
+    padding: 100px;
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-left: 500px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+
+  button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #928f8f;
+  }
+  
+  button {
+    background-color: #007bff;
+    
+    color: rgb(23, 13, 13);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1162b2;
+  }
+  
